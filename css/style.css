@@ -85,5 +85,19 @@ html, body {
       
   } 
   
-
+  #promo  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    background: #f2fcfe;
+    
+  }
+  #promo2  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    
+    background: #f2fcfe;
+    
+  }
  
