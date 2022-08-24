@@ -36,6 +36,7 @@ html, body {
     display: flex;
     flex-wrap: wrap;
     background: #f2fcfe;
+    justify-content:space-around;
     
   }
 
@@ -100,4 +101,16 @@ html, body {
     background: #f2fcfe;
     
   }
+
+  #formulario{
+    background: url(https://th.bing.com/th/id/OIP.cKTq4enAGO_Wg_Omp0ysngHaEK?pid=ImgDet&rs=1);
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+  }
  
+  .item1  {
+    color: aquamarine;
+  
+  }

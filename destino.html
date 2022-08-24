@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bom Trajeto/Destino</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+  <section class="container-fluid">
+    
+    <header>
+     
+
+        <!--inicio da navBar-->
+        <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #3f82c0";>
+
+          <a class="navbar-brand" href="./index.html">
+          <h2><strong style=" text-decoration:overline ;">BOM TRAJETO.COM</strong></h2>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./promocao.html"><strong>Promoções</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" arial-current="page" href="./Destino.html"><strong>Destino</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./Contato.html"><strong>Contato</strong></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </nav>
+
+        <div id="icones">
+          <article class="hospedagem">
+            <img src="./imagens/hospedagem.png" style="margin-left: 30px;" height="40px" width="40px" alt=""><h5>Hospedagens</h5>
+          </article>  
+          <article class="hospedagem">
+            <img src="./imagens/passagens.png" style="margin-left: 30px;" height="40px" width="40px" alt="" style="text-align: center;"><h5>Passagens</h5>
+          </article> 
+          <article class="hospedagem">
+            <img src="./imagens/passeios.png" style="margin-left: 18px;" height="40px" width="40px" alt="" style="text-align: center;"><h5>Passeios</h5>
+          </article>   
+
+         
+          </div>
+        
+      </header>
+      <main>
+        <section id="formulario">
+       <!--formulario para cadastro de destino-->
+    <div class="container">
+      <h3 style="text-align:center ;">Destinos</h3>
+      <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label"><strong>Destino</strong></label>
+          <input type="text" class="form-control" id="validationCustom01" required>
+          <div class="valid-feedback">
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label"><strong>Data de entrada</strong> </label>
+          <input type="date" class="form-control" id="validationCustom02" value="Otto" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label"><strong> Data de saida</strong> </label>
+          <input type="date" class="form-control" id="validationCustom02" value="Otto" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label"><strong>Adultos</strong></label>
+          <input type="text" class="form-control" id="validationCustom01" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label"><strong>Crianças</strong></label>
+          <input type="text" class="form-control" id="validationCustom01" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label"><strong>Quartos</strong></label>
+          <input type="text" class="form-control" id="validationCustom01" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              <strong> Vou viajar a trabalho</strong>
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-success" type="submit ">Buscar</button>
+        </div>
+      </form>
+      <!--final do formulario-->
+    </div>
+    </section>
+         
+     
+  
+     <section id="promo2">
+        
+      
+            <article class="item">
+                <div class="card bg-dark text-white">
+                    <img src="https://imagens4.ne10.uol.com.br/blogsjconline/havagas/2016/07/ferias.jpg" height="300px" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title" style="color:black ;">Suas ferias começa no Bom Trajeto.com</h5>
+                        
+                    </div>
+                  </div>
+                </article>
+
+                <article class="item">
+                    <div class="card bg-dark text-white">
+                        <img src="https://www.carpemundi.com.br/wp-content/uploads/2019/04/como-planejar-uma-viagem-internacional.jpg" height="300px" class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title" style="color:black">Aereo+hospedagem</h5>
+                          
+                          
+                        </div>
+                      </div>
+                    </article>
+       
+   </section>
+   <div>
+    
+   <h3 style="text-align:center ; background:#bce2e5;">Escolha o seu Destino e Venha ser feliz</h3>
+  </div>
+
+   <section id="content">
+    <article class="item">
+      <div class="card" style="width: 18rem;">
+        <img src="https://th.bing.com/th/id/R.c05249fbec1b3278334eb76156663258?rik=vrbP%2b7YbdAkhjg&riu=http%3a%2f%2fwww.psychomedia.qc.ca%2fimage%2f2016-07%2f37026-56762-image&ehk=JEt0goDduMboIjj9tNemcEDXkPWA5h81i9BWYZCFxL4%3d&risl=&pid=ImgRaw&r=0" height="300px" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <h5 class="card-title" style="color:black">Rio de Janeiro</h5>
+        </div>
+    </article>
+    <article class="item">
+      <div class="card" style="width: 18rem;">
+        <img src="https://th.bing.com/th/id/R.3fa4ed238c52a60eef88f535c4187e35?rik=D%2byHM0ugcGQBWA&riu=http%3a%2f%2fwww.dronestagr.am%2fwp-content%2fuploads%2f2017%2f09%2fIMG_4526-1-1-1200x800.jpg&ehk=n%2bNwnUvrd4IHYT3rlLyBEa4Obg4HPx03OtL9o6C%2bd6Q%3d&risl=&pid=ImgRaw&r=0" height="300px" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <h5 class="card-title" style="color:black">Lençóis Maranhenses</h5>
+        </div>
+    </article>
+    <article class="item">
+      <div class="card" style="width: 18rem;">
+        <img src="https://th.bing.com/th/id/R.7bfe279e0e72eec5df4cc2f4ae861b8e?rik=nvZep4lAAZvClA&pid=ImgRaw&r=0" height="300px" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <h5 class="card-title" style="color:black">Campos do Jordão</h5>
+        </div>
+    </article>
+</section>
+   </main>
+
+
+    
+
+      <footer>
+
+
+  
+  
+  <footer class="bg-dark text-light">
+    <div class="container-fluid py-3">
+    <div class="row">
+      <div class="col-4">
+        <div class="nav flex-column">
+        
+          <div class="nav-link"><a href="./promocao.html">Promoção</a>  <a href="#">Contato</a>  <a href="#">Destino</a></div>
+          
+        </div>
+      </div>
+      <div class="col-8">
+        <p>
+          O mundo é um livro e quem não viaja lê apenas a primeira página. (Santo Agostinho)
+        </p>
+        <ul class="nav">
+          <li class="nav-link" ><i class="fab fa-facebook fa-3x "></i></li>
+          <li class="nav-link"><i class="fab fa-instagram fa-3x"></i></li>
+          <li class="nav-link"><i class="fab fa-twitter fa-3x"></i></li>
+          <li class="nav-link"><i class="fab fa-whatsapp fa-3x"></i></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+    <div class="text-center" style="background-color: #333; padding: 20px;" >
+      Bom Trajeto.com: <a href="./index.html">Vem com a gente!!!</a>
+    </div>
+  </footer>
+  </footer>
+
+
+    
+
+
+
+
+
+</body>
+
+</html>
