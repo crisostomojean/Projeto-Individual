@@ -103,7 +103,7 @@ html, body {
   }
 
   #formulario{
-    background: url(https://th.bing.com/th/id/OIP.cKTq4enAGO_Wg_Omp0ysngHaEK?pid=ImgDet&rs=1);
+    background: url(/imagens/imagemFormulario.jpg);
     color:white;
     display: flex;
     flex-wrap: wrap;
@@ -111,6 +111,6 @@ html, body {
   }
  
   .item1  {
-    border-radius:10%;
+ 
   
   }
